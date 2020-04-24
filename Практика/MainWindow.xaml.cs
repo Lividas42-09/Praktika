@@ -28,6 +28,8 @@ namespace Практика
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Кнопка нажата");
+            TextBox1.Text = DateTime.Now.ToString();
         }
     }
+    
 }
