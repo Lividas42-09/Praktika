@@ -1,0 +1,24 @@
+﻿<Window x:Class="Практика.Файл"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практика"
+        mc:Ignorable="d"
+        Title="Файл" Height="650" Width="850">
+    <Window.Resources>
+        <Style x:Key="GridStyle1" TargetType="{x:Type Grid}"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="75,59,0,0" VerticalAlignment="Top" Height="30" Width="75" Click="Button_Click_1"/>
+        <Button Content="Открыть" HorizontalAlignment="Left" Margin="0,59,0,0" VerticalAlignment="Top" Height="30" Width="75" Click="Button_Click"/>
+        <Button Content="Вернуться в меню" HorizontalAlignment="Left" Margin="150,59,0,0" VerticalAlignment="Top" Height="30" Width="110" Click="Button_Click_2"/>
+        <Label Content="&quot;ФАЙЛ&quot;" HorizontalAlignment="Left" Margin="357,13,0,0" VerticalAlignment="Top" Width="83" FontSize="20"/>
+        <Button Content="" Margin="0,-1,840,625" Visibility="Visible" BorderBrush="White" Background="White" Click="Button_Click_3"/>
+        <TextBox x:Name="Text" HorizontalAlignment="Center" Margin="0,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="790" Height="490" TextChanged="Text_TextChanged"/>
+
+    </Grid>
+</Window>

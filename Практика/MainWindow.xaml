@@ -5,10 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Практика"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" >
-    <Grid>
-        <Button Content="Кнопка" HorizontalAlignment="Left" Margin="145,179,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="225,181,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        Title="MainWindow" Height="500" Width="800" >
+    <Grid Margin="0,1,0,-1">
+        <Button Content="&quot;Файл&quot;" HorizontalAlignment="Left" Margin="11,233,0,0" VerticalAlignment="Top" Click="Button_Click" Width="79" Height="40" FontSize="16" Visibility="Visible"/>
+        <Label Content="&quot;ГЛАВНОЕ МЕНЮ&quot;" HorizontalAlignment="Left" Margin="315,8,0,0" VerticalAlignment="Top" Width="180" Height="46" BorderThickness="0,0,0,0" RenderTransformOrigin="0.5,0.5" FontSize="20">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.311"/>
+                    <RotateTransform Angle="0.144"/>
+                    <TranslateTransform Y="-0.502"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Content="&quot;Настройки&quot;" HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top" Height="40" Width="90" FontSize="14" Click="Button_Click_1"/>
+        <Button Content="&quot;О ПРОГРАММЕ&quot;" HorizontalAlignment="Left" Margin="10,333,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="14" Click="Button_Click_2"/>
+        <Button Content="&quot;ПОДКЛЮЧЕНИЕ К БД&quot;" HorizontalAlignment="Left" Margin="10,383,0,0" VerticalAlignment="Top" Height="40" Width="160" FontSize="14" Click="Button_Click_3"/>
 
 
     </Grid>

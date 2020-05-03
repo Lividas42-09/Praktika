@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "e9dcfEJDD7tzMk/pu2FmijitI/GnAJMG8k+X8Pj75wada3XfAdvVndHbYa7VE7RZ8uYP7lZmwHQ6RnZdTquvPg==",
+  "dgSpecHash": "H1XnYeO7o1617rpyCZWH/7uOmfNRgEw6MmsI/7GS0dKSGcwJVq/5iOpUiTC5XXjZBYrofsIayt4KQcx/+ZGsAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sader\\source\\repos\\Практика\\Практика\\Практика.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sader\\.nuget\\packages\\nlog\\4.7.0\\nlog.4.7.0.nupkg.sha512",
+    "C:\\Users\\Sader\\.nuget\\packages\\nlog.config\\4.7.0\\nlog.config.4.7.0.nupkg.sha512",
+    "C:\\Users\\Sader\\.nuget\\packages\\nlog.schema\\4.7.0\\nlog.schema.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

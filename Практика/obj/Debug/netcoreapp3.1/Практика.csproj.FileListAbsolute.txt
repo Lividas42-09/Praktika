@@ -17,3 +17,16 @@ C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcorea
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Практика.dll
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Практика.pdb
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Практика.genruntimeconfig.cache
+C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Практика.csproj.CopyComplete
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Файл.g.cs
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Файл.baml
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Настройки.g.cs
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\О_программе.g.cs
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Настройки.baml
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\О_программе.baml
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Da.g.cs
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Da.baml
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Авторизация.g.cs
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Авторизация.baml

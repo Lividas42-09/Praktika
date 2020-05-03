@@ -6,4 +6,32 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="1.gif" />
+    <None Remove="1366929924_173505797.jpg" />
+    <None Remove="a9f1895aea8bc41ed82a0c1ea5ee52e1.jpg" />
+    <None Remove="bandicam.mp4" />
+    <None Remove="d126f13f902d5cb63d09eb6963f9b1d8.gif" />
+    <None Remove="kP0DMqNGaPI.jpg" />
+    <None Remove="maxresdefault.jpg" />
+    <None Remove="Снимок3.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.0" />
+    <PackageReference Include="NLog.Config" Version="4.7.0" />
+    <PackageReference Include="NLog.Schema" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1.gif" />
+    <Resource Include="1366929924_173505797.jpg" />
+    <Resource Include="a9f1895aea8bc41ed82a0c1ea5ee52e1.jpg" />
+    <Resource Include="bandicam.mp4" />
+    <Resource Include="d126f13f902d5cb63d09eb6963f9b1d8.gif" />
+    <Resource Include="kP0DMqNGaPI.jpg" />
+    <Resource Include="maxresdefault.jpg" />
+    <Resource Include="Снимок3.PNG" />
+  </ItemGroup>
+
 </Project>

@@ -7,7 +7,39 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Da.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Авторизация.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Настройки.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="О_программе.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Файл.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Da.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Авторизация.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Настройки.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="О_программе.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Файл.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
