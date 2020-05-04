@@ -1,0 +1,10 @@
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\bin\Debug\netcoreapp3.1\ПервоеDLL.deps.json
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\bin\Debug\netcoreapp3.1\ПервоеDLL.dll
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\bin\Debug\netcoreapp3.1\ПервоеDLL.pdb
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\obj\Debug\netcoreapp3.1\ПервоеDLL.csprojAssemblyReference.cache
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\obj\Debug\netcoreapp3.1\ПервоеDLL.AssemblyInfoInputs.cache
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\obj\Debug\netcoreapp3.1\ПервоеDLL.AssemblyInfo.cs
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\obj\Debug\netcoreapp3.1\ПервоеDLL.dll
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\obj\Debug\netcoreapp3.1\ПервоеDLL.pdb
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\obj\Debug\netcoreapp3.1\ПервоеDLL.csproj.ResolveComReference.cache
+C:\Users\Sader\source\repos\ПервоеDLL\ПервоеDLL\obj\Debug\netcoreapp3.1\ПервоеDLL.csproj.CoreCompileInputs.cache

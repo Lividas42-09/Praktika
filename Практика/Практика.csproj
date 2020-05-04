@@ -24,6 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Да\Да.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="1.gif" />
     <Resource Include="1366929924_173505797.jpg" />
     <Resource Include="a9f1895aea8bc41ed82a0c1ea5ee52e1.jpg" />
