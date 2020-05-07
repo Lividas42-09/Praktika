@@ -34,5 +34,6 @@
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNLog_Config Condition=" '$(PkgNLog_Config)' == '' ">C:\Users\Sader\.nuget\packages\nlog.config\4.7.0</PkgNLog_Config>
+    <PkgExtended_Wpf_Toolkit Condition=" '$(PkgExtended_Wpf_Toolkit)' == '' ">C:\Users\Sader\.nuget\packages\extended.wpf.toolkit\3.8.1</PkgExtended_Wpf_Toolkit>
   </PropertyGroup>
 </Project>

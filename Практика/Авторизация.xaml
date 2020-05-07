@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/1366929924_173505797.jpg"/>
         </Grid.Background>
-        <Button Content="Присоединиться" HorizontalAlignment="Left" Margin="255,204,0,0" VerticalAlignment="Top" Height="40"/>
+        <Button Content="Присоединиться" HorizontalAlignment="Left" Margin="255,204,0,0" VerticalAlignment="Top" Height="40" Click="Button_Click_2"/>
         <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="405,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="405,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Margin="405,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>

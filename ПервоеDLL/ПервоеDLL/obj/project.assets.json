@@ -4370,11 +4370,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sader\\source\\repos\\ПервоеDLL\\ПервоеDLL\\ПервоеDLL.csproj",
+      "projectUniqueName": "C:\\Users\\Sader\\source\\repos\\Практика\\ПервоеDLL\\ПервоеDLL\\ПервоеDLL.csproj",
       "projectName": "ПервоеDLL",
-      "projectPath": "C:\\Users\\Sader\\source\\repos\\ПервоеDLL\\ПервоеDLL\\ПервоеDLL.csproj",
+      "projectPath": "C:\\Users\\Sader\\source\\repos\\Практика\\ПервоеDLL\\ПервоеDLL\\ПервоеDLL.csproj",
       "packagesPath": "C:\\Users\\Sader\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sader\\source\\repos\\ПервоеDLL\\ПервоеDLL\\obj\\",
+      "outputPath": "C:\\Users\\Sader\\source\\repos\\Практика\\ПервоеDLL\\ПервоеDLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

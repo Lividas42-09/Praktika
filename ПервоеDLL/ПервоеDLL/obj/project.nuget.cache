@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eY4RbzserVjp8d7JAeJ4Qc5ghbCdd1bi0GK0wUZHEFpJcJ27ztYvilR6EG1V9GQloIy9ply/Sp/WzWafZ9YG5Q==",
+  "dgSpecHash": "D+2mSEIoThmxbNhcE7HM2FaJZ9L0s7wwfVww2Hub1MvlLjH09ula2l0VYyaBAnOX/UAeCABPkB3BuH5sN9tGAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sader\\source\\repos\\ПервоеDLL\\ПервоеDLL\\ПервоеDLL.csproj",
+  "projectFilePath": "C:\\Users\\Sader\\source\\repos\\Практика\\ПервоеDLL\\ПервоеDLL\\ПервоеDLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sader\\.nuget\\packages\\catel.core\\5.12.5\\catel.core.5.12.5.nupkg.sha512",
     "C:\\Users\\Sader\\.nuget\\packages\\catel.mvvm\\5.12.5\\catel.mvvm.5.12.5.nupkg.sha512",

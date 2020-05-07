@@ -1,0 +1,4 @@
+Название сервера: DESKTOP-TCKRHQ6\SQLEXPRESS
+Название БД: Da
+Логин: Lividas
+Пароль: Lividas42_09

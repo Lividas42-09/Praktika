@@ -21,8 +21,6 @@
         <Button Content="&quot;Настройки&quot;" HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top" Height="40" Width="90" FontSize="14" Click="Button_Click_1"/>
         <Button Content="&quot;О ПРОГРАММЕ&quot;" HorizontalAlignment="Left" Margin="10,333,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="14" Click="Button_Click_2"/>
         <Button Content="&quot;ПОДКЛЮЧЕНИЕ К БД&quot;" HorizontalAlignment="Left" Margin="10,383,0,0" VerticalAlignment="Top" Height="40" Width="160" FontSize="14" Click="Button_Click_3"/>
-        <TextBox x:Name="TeextBox" HorizontalAlignment="Left" Margin="525,203,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="TeextBox1" HorizontalAlignment="Left" Margin="525,240,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
 
     </Grid>
