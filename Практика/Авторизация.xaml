@@ -10,18 +10,18 @@
         <Grid.Background>
             <ImageBrush ImageSource="/1366929924_173505797.jpg"/>
         </Grid.Background>
-        <Button Content="Присоединиться" HorizontalAlignment="Left" Margin="255,204,0,0" VerticalAlignment="Top" Height="40" Click="Button_Click_2"/>
-        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="405,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="405,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Margin="405,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="TextBox4" HorizontalAlignment="Left" Margin="405,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Название сервера" HorizontalAlignment="Left" Margin="255,87,0,0" VerticalAlignment="Top" Background="#FFFFEEEE"/>
-        <Label Content="Название БД" HorizontalAlignment="Left" Margin="255,112,0,0" VerticalAlignment="Top" Background="White"/>
-        <Label Content="Логин" HorizontalAlignment="Left" Margin="255,137,0,0" VerticalAlignment="Top" Background="White"/>
-        <Label Content="Пароль" HorizontalAlignment="Left" Margin="255,163,0,0" VerticalAlignment="Top" Background="White"/>
-        <Button Content="Очистить поля ввода" HorizontalAlignment="Left" Margin="385,204,0,0" VerticalAlignment="Top" Height="40" Width="140" Background="#FFDDDDDD"/>
-        <Button Content="Главное меню" HorizontalAlignment="Left" Margin="697,399,0,0" VerticalAlignment="Top" Height="30" Click="Button_Click"/>
-        <TextBox x:Name="Text1" HorizontalAlignment="Left" Margin="0,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="160" RenderTransformOrigin="0.5,0.5" Background="White">
+        <Button Content="Присоединиться" HorizontalAlignment="Left" Margin="240,39,0,0" VerticalAlignment="Top" Height="40" Click="Button_Click_2" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" FontSize="16" FontWeight="Bold" Cursor="Hand"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="405,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderBrush="#FFABADB3" Foreground="White"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="405,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Margin="405,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <TextBox x:Name="TextBox4" HorizontalAlignment="Left" Margin="405,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="White" Background="{x:Null}"/>
+        <Label Content="Название сервера" HorizontalAlignment="Left" Margin="251,79,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontSize="16" FontWeight="Bold" FontStyle="Normal"/>
+        <Label Content="Название БД" HorizontalAlignment="Left" Margin="253,104,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="255,137,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="255,169,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Очистить поля ввода" HorizontalAlignment="Left" Margin="385,39,0,0" VerticalAlignment="Top" Height="40" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="16" FontWeight="Bold" Cursor="Hand" Click="Button_Click_4"/>
+        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="549,414,0,0" VerticalAlignment="Top" Height="30" Click="Button_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="18" FontWeight="Bold" Cursor="Hand"/>
+        <TextBox x:Name="Text1" HorizontalAlignment="Left" Margin="0,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Height="160" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Red" FontWeight="Bold" FontSize="14">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -31,7 +31,8 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <Button Content="Посмотреть логины" HorizontalAlignment="Left" Margin="185,414,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Посмотреть логины" HorizontalAlignment="Left" Margin="185,389,0,0" VerticalAlignment="Top" Click="Button_Click_1" Height="25" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="16" FontWeight="Bold" Cursor="Hand"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="185,414,0,0" VerticalAlignment="Top" Click="Button_Click_3" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="16" FontWeight="Bold" Cursor="Hand"/>
 
     </Grid>
 </Window>

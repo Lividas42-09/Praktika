@@ -13,7 +13,7 @@
     <Compile Update="Авторизация.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Настройки.xaml.cs">
+    <Compile Update="Модули.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="О_программе.xaml.cs">
@@ -33,7 +33,7 @@
     <Page Update="Авторизация.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Настройки.xaml">
+    <Page Update="Модули.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="О_программе.xaml">

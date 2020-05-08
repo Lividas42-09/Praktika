@@ -10,15 +10,22 @@
         <Style x:Key="GridStyle1" TargetType="{x:Type Grid}"/>
     </Window.Resources>
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/fisiIOzJHoU.jpg"/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Очистить" HorizontalAlignment="Left" Margin="75,59,0,0" VerticalAlignment="Top" Height="30" Width="75" Click="Button_Click_1"/>
-        <Button Content="Открыть" HorizontalAlignment="Left" Margin="0,59,0,0" VerticalAlignment="Top" Height="30" Width="75" Click="Button_Click"/>
-        <Button Content="Вернуться в меню" HorizontalAlignment="Left" Margin="150,59,0,0" VerticalAlignment="Top" Height="30" Width="110" Click="Button_Click_2"/>
-        <Label Content="&quot;ФАЙЛ&quot;" HorizontalAlignment="Left" Margin="357,13,0,0" VerticalAlignment="Top" Width="83" FontSize="20"/>
-        <Button Content="" Margin="0,-1,840,625" Visibility="Visible" BorderBrush="White" Background="White" Click="Button_Click_3"/>
-        <TextBox x:Name="Text" HorizontalAlignment="Center" Margin="0,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="790" Height="490" TextChanged="Text_TextChanged"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="250,79,0,0" VerticalAlignment="Top" Height="40" Width="85" Click="Button_Click_1" Cursor="Hand" FontWeight="Bold" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" ToolTip="Очистить"/>
+        <Button Content="Открыть" HorizontalAlignment="Left" Margin="170,79,0,0" VerticalAlignment="Top" Height="40" Width="75" Click="Button_Click" Cursor="Hand" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="16" FontWeight="Bold" ToolTip="Открыть файл"/>
+        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="335,79,0,0" VerticalAlignment="Top" Height="40" Width="145" Click="Button_Click_2" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="16" FontWeight="Bold" ToolTip="Вернуться в меню" Cursor="Hand"/>
+        <Label Content="&quot;ФАЙЛ&quot;" HorizontalAlignment="Left" Margin="352,10,0,0" VerticalAlignment="Top" Width="98" FontSize="22" Background="{x:Null}" Foreground="Black" FontWeight="Bold"/>
+        <Button Content="" Margin="0,-1,840,625" Visibility="Visible" BorderBrush="White" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush ImageSource="/fisiIOzJHoU — копия.jpg"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="Text" HorizontalAlignment="Left" Margin="60,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="710" Height="470" TextChanged="Text_TextChanged" Foreground="Black" Background="{x:Null}" BorderBrush="{x:Null}" SelectionTextBrush="White"/>
 
     </Grid>
 </Window>

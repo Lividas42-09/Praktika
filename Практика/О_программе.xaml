@@ -7,13 +7,15 @@
         mc:Ignorable="d"
         Title="О_программе" Height="470" Width="850">
     <Grid>
-        <Label Content="Программу разработали студенты" HorizontalAlignment="Left" Margin="-1,357,0,0" VerticalAlignment="Top"/>
-        <Label Content="Пономарёв Евгений и Елхов Андрей" HorizontalAlignment="Left" Margin="-1,407,0,0" VerticalAlignment="Top"/>
-        <Label Content="Группы ИСиП-391к-17" HorizontalAlignment="Left" Margin="0,383,0,0" VerticalAlignment="Top"/>
-        <Label Content="Ссылка на репозиторий" HorizontalAlignment="Left" Margin="0,268,0,0" VerticalAlignment="Top"/>
-        <Image HorizontalAlignment="Left" Height="360" Margin="355,39,0,0" VerticalAlignment="Top" Width="356" Source="/d126f13f902d5cb63d09eb6963f9b1d8.gif"/>
-        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="700,394,0,0" VerticalAlignment="Top" Height="30" Click="Button_Click"/>
-        <TextBox HorizontalAlignment="Left" Margin="5,291,0,0" Text="https://github.com/Lividas42-09/Praktika" TextWrapping="Wrap" VerticalAlignment="Top" Width="235"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="/9W59VV9wwIU.jpg"/>
+        </Grid.Background>
+        <Label Content="Программу разработали студенты" HorizontalAlignment="Left" Margin="1,39,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пономарёв Евгений и Елхов Андрей" HorizontalAlignment="Left" Margin="0,79,0,0" VerticalAlignment="Top"/>
+        <Label Content="Группы ИСиП-391к-17" HorizontalAlignment="Left" Margin="0,59,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ссылка на репозиторий" HorizontalAlignment="Left" Margin="3,-1,0,0" VerticalAlignment="Top"/>
+        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="5,129,0,0" VerticalAlignment="Top" Height="30" Click="Button_Click" Background="{x:Null}" BorderBrush="{x:Null}" Cursor="Hand" FontSize="16" FontWeight="Normal" ToolTip="В главное меню"/>
+        <TextBox HorizontalAlignment="Left" Margin="5,21,0,0" Text="https://github.com/Lividas42-09/Praktika" TextWrapping="Wrap" VerticalAlignment="Top" Width="235" Background="{x:Null}" BorderBrush="{x:Null}"/>
 
     </Grid>
 </Window>

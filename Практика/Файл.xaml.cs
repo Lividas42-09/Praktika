@@ -66,14 +66,31 @@ namespace Практика
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Text.Clear();
+            try
+            {
+                logger.Info("Процедура очистки файла прошла успешно");
+                Text.Clear();
+            }
+            catch
+            {
+                logger.Error("Процедура очистки файла провалена");
+            }
+
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            this.Close();
+            try
+            {
+                logger.Info("Была нажата кнопка для перехода В главное меню");
+                MainWindow mainWindow = new MainWindow();
+                mainWindow.Show();
+                this.Close();
+            }
+            catch
+            {
+                logger.Error("Произошла ошибка при попытке перехода В главное меню");
+            }
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)

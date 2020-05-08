@@ -1,9 +1,0 @@
-C:\Users\Sader\source\repos\Практика\Да\bin\Debug\netcoreapp3.1\Да.deps.json
-C:\Users\Sader\source\repos\Практика\Да\bin\Debug\netcoreapp3.1\Да.dll
-C:\Users\Sader\source\repos\Практика\Да\bin\Debug\netcoreapp3.1\Да.pdb
-C:\Users\Sader\source\repos\Практика\Да\obj\Debug\netcoreapp3.1\Да.csprojAssemblyReference.cache
-C:\Users\Sader\source\repos\Практика\Да\obj\Debug\netcoreapp3.1\Да.csproj.CoreCompileInputs.cache
-C:\Users\Sader\source\repos\Практика\Да\obj\Debug\netcoreapp3.1\Да.AssemblyInfoInputs.cache
-C:\Users\Sader\source\repos\Практика\Да\obj\Debug\netcoreapp3.1\Да.AssemblyInfo.cs
-C:\Users\Sader\source\repos\Практика\Да\obj\Debug\netcoreapp3.1\Да.dll
-C:\Users\Sader\source\repos\Практика\Да\obj\Debug\netcoreapp3.1\Да.pdb

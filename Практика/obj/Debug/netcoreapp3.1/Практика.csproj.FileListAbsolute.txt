@@ -22,9 +22,7 @@ C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcorea
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Практика.csproj.CopyComplete
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Файл.g.cs
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Файл.baml
-C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Настройки.g.cs
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\О_программе.g.cs
-C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Настройки.baml
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\О_программе.baml
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Da.g.cs
 C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Da.baml
@@ -122,3 +120,5 @@ C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcorea
 C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Модули.g.cs
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Модули.baml

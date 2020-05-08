@@ -28,43 +28,80 @@ namespace Практика
         private static Logger logger = LogManager.GetCurrentClassLogger();
         public MainWindow()
         {
-            InitializeComponent();
-            {
-                logger.Trace("trace message");
-                logger.Debug("debug message");
-                logger.Info("info message");
-                logger.Warn("warn message");
-                logger.Error("error message");
-                logger.Fatal("fatal message");
-            }
+            InitializeComponent();           
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Файл файл = new Файл();
-            файл.Show();
-            this.Close();
+            try
+            {
+                logger.Info("Была нажата кнопка для перехода на форму 'Файл'");
+                Файл файл = new Файл();
+                файл.Show();
+                this.Close();
+            }
+            catch
+            {
+                logger.Error("Произошла ошибка при попытке перехода на форму 'Файл'");
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Настройки настройки = new Настройки();
-            настройки.Show();
-            this.Close();
+            try
+            {
+                logger.Info("Была нажата кнопка для перехода на форму 'Модули'");
+                Настройки настройки = new Настройки();
+                настройки.Show();
+                this.Close();
+            }
+            catch
+            {
+                logger.Error("Произошла ошибка при попытке перехода на форму 'Модули'");
+            }
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            О_программе _ = new О_программе();
-            _.Show();
-            this.Close();
+            try
+            {
+                logger.Info("Была нажата кнопка для перехода на форму 'О программе'");
+                О_программе _ = new О_программе();
+                _.Show();
+                this.Close();
+            }
+            catch
+            {
+                logger.Error("Произошла ошибка при попытке перехода на форму 'О программе'");
+            }
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            Авторизация авторизация = new Авторизация();
-            авторизация.Show();
-            this.Close();
+            try
+            {
+                logger.Info("Была нажата кнопка для перехода на форму 'Авторизация'");
+                Авторизация авторизация = new Авторизация();
+                авторизация.Show();
+                this.Close();
+            }
+            catch
+            {
+                logger.Error("Произошла ошибка при попытке перехода на форму 'Авторизация'");
+            }
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                logger.Info("Программа была успешна закрыта");
+                this.Close();
+            }
+            catch
+            {
+                logger.Error("При закрытии произошла ошибка");
+            }
         }
     }
 

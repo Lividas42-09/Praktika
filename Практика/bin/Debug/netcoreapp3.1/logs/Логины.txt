@@ -1,4 +1,4 @@
-Название сервера: DESKTOP-TCKRHQ6\SQLEXPRESS
-Название БД: Da
-Логин: Lividas
-Пароль: Lividas42_09
+Название сервера: DESKTOP-TCKRHQ6\GOVNO2
+Название БД: YYEET
+Логин: YEET
+Пароль: 1488

@@ -9,11 +9,17 @@
   <ItemGroup>
     <None Remove="1.gif" />
     <None Remove="1366929924_173505797.jpg" />
+    <None Remove="9W59VV9wwIU.jpg" />
     <None Remove="a9f1895aea8bc41ed82a0c1ea5ee52e1.jpg" />
     <None Remove="bandicam.mp4" />
     <None Remove="d126f13f902d5cb63d09eb6963f9b1d8.gif" />
+    <None Remove="fisiIOzJHoU — копия.jpg" />
+    <None Remove="fisiIOzJHoU.jpg" />
+    <None Remove="GjoUMpTIa50.jpg" />
     <None Remove="kP0DMqNGaPI.jpg" />
     <None Remove="maxresdefault.jpg" />
+    <None Remove="rj_pfFXljG0.jpg" />
+    <None Remove="x2hLjgymx0o.jpg" />
     <None Remove="Снимок3.PNG" />
   </ItemGroup>
 
@@ -30,11 +36,17 @@
   <ItemGroup>
     <Resource Include="1.gif" />
     <Resource Include="1366929924_173505797.jpg" />
+    <Resource Include="9W59VV9wwIU.jpg" />
     <Resource Include="a9f1895aea8bc41ed82a0c1ea5ee52e1.jpg" />
     <Resource Include="bandicam.mp4" />
     <Resource Include="d126f13f902d5cb63d09eb6963f9b1d8.gif" />
+    <Resource Include="fisiIOzJHoU — копия.jpg" />
+    <Resource Include="fisiIOzJHoU.jpg" />
+    <Resource Include="GjoUMpTIa50.jpg" />
     <Resource Include="kP0DMqNGaPI.jpg" />
     <Resource Include="maxresdefault.jpg" />
+    <Resource Include="rj_pfFXljG0.jpg" />
+    <Resource Include="x2hLjgymx0o.jpg" />
     <Resource Include="Снимок3.PNG" />
   </ItemGroup>
 

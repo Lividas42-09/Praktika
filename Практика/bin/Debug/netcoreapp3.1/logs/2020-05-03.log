@@ -1,6 +1,0 @@
-2020-05-03 16:30:03.7762 DEBUG debug message
-2020-05-03 16:30:03.9309 INFO info message
-2020-05-03 16:30:03.9388 WARN warn message
-2020-05-03 16:30:03.9388 ERROR error message
-2020-05-03 16:30:03.9603 FATAL fatal message
-2020-05-03 16:30:31.4930 INFO Запуск открытия конкретного файла успешен
