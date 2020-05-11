@@ -6,12 +6,8 @@
         xmlns:local="clr-namespace:Практика"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800" >
-    <Grid Margin="0,1,0,-1">
-        <Grid.Background>
-            <ImageBrush ImageSource="/rj_pfFXljG0.jpg"/>
-        </Grid.Background>
-        <Button Content="&quot;Файл&quot;" HorizontalAlignment="Left" Margin="15,193,0,0" VerticalAlignment="Top" Click="Button_Click" Width="79" Height="40" FontSize="18" Visibility="Visible" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand" FontWeight="Bold" ToolTip="Файл"/>
-        <Label Content="&quot;ГЛАВНОЕ МЕНЮ&quot;" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Width="200" Height="46" BorderThickness="0,0,0,0" RenderTransformOrigin="0.5,0.5" FontSize="20" Background="{x:Null}" Foreground="White" FontWeight="Bold">
+    <Grid Margin="0,1,0,-1" Cursor="Hand">
+        <Label Content="&quot;ГЛАВНОЕ МЕНЮ&quot;" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Width="200" Height="46" BorderThickness="0,0,0,0" RenderTransformOrigin="0.5,0.5" FontSize="20" Background="White" Foreground="Black" FontWeight="Bold">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -21,10 +17,25 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Button Content="&quot;Модули&quot;" HorizontalAlignment="Left" Margin="10,233,0,0" VerticalAlignment="Top" Height="40" Width="110" FontSize="18" Click="Button_Click_1" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" ToolTip="Модули" Cursor="Hand"/>
-        <Button Content="&quot;О ПРОГРАММЕ&quot;" HorizontalAlignment="Left" Margin="20,278,0,0" VerticalAlignment="Top" Height="40" Width="150" FontSize="18" Click="Button_Click_2" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" ToolTip="О программе" Cursor="Hand"/>
-        <Button Content="&quot;ПОДКЛЮЧЕНИЕ К БД&quot;" HorizontalAlignment="Left" Margin="15,318,0,0" VerticalAlignment="Top" Height="40" Width="220" FontSize="18" Click="Button_Click_3" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" ToolTip="Подключение к бд" Cursor="Hand"/>
-        <Button Content="Выход" HorizontalAlignment="Left" Margin="5,363,0,0" VerticalAlignment="Top" Click="Button_Click_4" Width="110" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="20" FontWeight="Bold" Cursor="Hand" ToolTip="Выход"/>
+        <Menu HorizontalAlignment="Left" Height="220" Margin="290,143,0,0" VerticalAlignment="Top" Width="205" Background="White">
+            <MenuItem ToolTip="Открывает модули программы" Header="Модули" Width="76" Click="MenuItem_Click_2" Cursor="Hand" FontSize="16" FontWeight="Bold">
+                <Separator/>
+                <MenuItem ToolTip=" Позволяет присоединиться к базе данных" Header="Присоединение к БД" Click="Baza_dannyx" Cursor="Hand">
+                </MenuItem>
+                <MenuItem ToolTip=" Позволяет открыть текстовый файл "  Header="Открыть текстовый файл" Click="newbutton1" Cursor="Hand">
+                </MenuItem>
+                <MenuItem ToolTip="При нажатии откроется окно для открытия изображения" Header="Открыть изображение" Click="Open_Image" Cursor="Hand">
+                </MenuItem>
+                <MenuItem ToolTip="При нажатии откроется аудиоплеер" Header="Аудиоплеер" Click="Pleer" Cursor="Hand">
+                </MenuItem>
+                <MenuItem ToolTip="При нажатии приложение закрывается" Header="Выход из программы" Click="exit_CLick" Cursor="Hand">
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Width="124" Cursor="Hand" Header="О программе" FontSize="16" FontWeight="Bold" >
+                <MenuItem ToolTip="О программе" Header="О программе" Click="o_proge" Cursor="Hand">
+                </MenuItem>
+            </MenuItem>
+        </Menu>
 
 
     </Grid>

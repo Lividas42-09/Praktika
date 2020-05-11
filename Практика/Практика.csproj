@@ -16,8 +16,13 @@
     <None Remove="fisiIOzJHoU — копия.jpg" />
     <None Remove="fisiIOzJHoU.jpg" />
     <None Remove="GjoUMpTIa50.jpg" />
+    <None Remove="img_128851.png" />
+    <None Remove="img_349454.png" />
+    <None Remove="img_513536.png" />
+    <None Remove="img_515283.png" />
     <None Remove="kP0DMqNGaPI.jpg" />
     <None Remove="maxresdefault.jpg" />
+    <None Remove="opened_folder1600.png" />
     <None Remove="rj_pfFXljG0.jpg" />
     <None Remove="x2hLjgymx0o.jpg" />
     <None Remove="Снимок3.PNG" />
@@ -43,8 +48,13 @@
     <Resource Include="fisiIOzJHoU — копия.jpg" />
     <Resource Include="fisiIOzJHoU.jpg" />
     <Resource Include="GjoUMpTIa50.jpg" />
+    <Resource Include="img_128851.png" />
+    <Resource Include="img_349454.png" />
+    <Resource Include="img_513536.png" />
+    <Resource Include="img_515283.png" />
     <Resource Include="kP0DMqNGaPI.jpg" />
     <Resource Include="maxresdefault.jpg" />
+    <Resource Include="opened_folder1600.png" />
     <Resource Include="rj_pfFXljG0.jpg" />
     <Resource Include="x2hLjgymx0o.jpg" />
     <Resource Include="Снимок3.PNG" />

@@ -31,7 +31,21 @@ namespace Практика
             InitializeComponent();           
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Baza_dannyx(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                logger.Info("Была нажата кнопка для перехода на форму 'Авторизация'");
+                Авторизация авторизация = new Авторизация();
+                авторизация.Show();
+                this.Close();
+            }
+            catch
+            {
+                logger.Error("Произошла ошибка при попытке перехода на форму 'Авторизация'");
+            }
+        }
+        private void newbutton1(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -46,22 +60,7 @@ namespace Практика
             }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                logger.Info("Была нажата кнопка для перехода на форму 'Модули'");
-                Настройки настройки = new Настройки();
-                настройки.Show();
-                this.Close();
-            }
-            catch
-            {
-                logger.Error("Произошла ошибка при попытке перехода на форму 'Модули'");
-            }
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void o_proge(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -76,22 +75,37 @@ namespace Практика
             }
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void Open_Image(object sender, RoutedEventArgs e)
         {
             try
             {
-                logger.Info("Была нажата кнопка для перехода на форму 'Авторизация'");
-                Авторизация авторизация = new Авторизация();
-                авторизация.Show();
+                Картинка картинка = new Картинка();
+                картинка.Show();
                 this.Close();
+                logger.Info("Была нажата кнопка для перехода на форму Картинка");
             }
             catch
             {
-                logger.Error("Произошла ошибка при попытке перехода на форму 'Авторизация'");
+                logger.Error("Произошла ошибка при попытке прехода на форму Картинка");
             }
         }
 
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void Pleer(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Pleer pleer = new Pleer();
+                pleer.Show();
+                this.Close();
+                logger.Info("Была нажата кнопка для перехода в Аудиоплеер");
+            }
+            catch
+            {
+                logger.Error("Произошла ошибка при попытке прехода в Аудиоплеер");
+            }
+        }
+
+        private void exit_CLick(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -102,6 +116,10 @@ namespace Практика
             {
                 logger.Error("При закрытии произошла ошибка");
             }
+        }
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 

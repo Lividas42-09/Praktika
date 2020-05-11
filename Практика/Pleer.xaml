@@ -1,0 +1,43 @@
+﻿<Window x:Class="Практика.Pleer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практика"
+        mc:Ignorable="d"
+        Title="Pleer" Height="450" Width="800">
+    <Grid Cursor="Hand">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF7E7575"/>
+                <GradientStop Color="#FFBBB0B0" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="text1" HorizontalAlignment="Left" Height="40" Margin="210,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="450" Background="{x:Null}"/>
+        <Label Content="Имя файла:" HorizontalAlignment="Left" Height="40" Margin="95,159,0,0" VerticalAlignment="Top" Width="115" FontSize="18" FontWeight="Bold"/>
+        <Grid HorizontalAlignment="Left" Height="435" VerticalAlignment="Center" Width="65">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF7C6F6F"/>
+                    <GradientStop Color="#FFD1D1D1" Offset="0.905"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Button HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="65" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand" Margin="0,20,0,0" ToolTip="Воспроизвести" Click="Button_Click_1">
+                <Image HorizontalAlignment="Left" Height="30" VerticalAlignment="Center" Width="31" Source="/img_128851.png" Cursor="Hand"/>
+            </Button>
+            <Button HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="65" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand" Margin="0,100,0,0" ToolTip="Пауза" Click="Button_Click_2">
+                <Image HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="31"  Cursor="Hand" Source="/img_513536.png"/>
+            </Button>
+            <Button HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="65" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand" Margin="0,175,0,0" ToolTip="Стоп" Click="Button_Click_3">
+                <Image HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="31"  Cursor="Hand" Source="/img_515283.png"/>
+            </Button>
+            <Button HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="65" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand" Margin="0,250,0,0" ToolTip="Открыть" Click="Button_Click">
+                <Image HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="31"  Cursor="Hand" Source="/opened_folder1600.png" />
+            </Button>
+            <Button HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="65" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand" Margin="0,335,0,0" ToolTip="В главное меню" Click="Button_Click_4">
+                <Image HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="31"  Cursor="Hand" Source="/img_349454.png"  />
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>

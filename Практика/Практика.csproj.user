@@ -10,10 +10,13 @@
     <Compile Update="Da.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pleer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Авторизация.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Модули.xaml.cs">
+    <Compile Update="Картинка.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="О_программе.xaml.cs">
@@ -30,10 +33,13 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Pleer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Авторизация.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Модули.xaml">
+    <Page Update="Картинка.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="О_программе.xaml">

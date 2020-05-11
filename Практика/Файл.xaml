@@ -10,15 +10,12 @@
         <Style x:Key="GridStyle1" TargetType="{x:Type Grid}"/>
     </Window.Resources>
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="/fisiIOzJHoU.jpg"/>
-        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Очистить" HorizontalAlignment="Left" Margin="250,79,0,0" VerticalAlignment="Top" Height="40" Width="85" Click="Button_Click_1" Cursor="Hand" FontWeight="Bold" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" ToolTip="Очистить"/>
-        <Button Content="Открыть" HorizontalAlignment="Left" Margin="170,79,0,0" VerticalAlignment="Top" Height="40" Width="75" Click="Button_Click" Cursor="Hand" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" FontSize="16" FontWeight="Bold" ToolTip="Открыть файл"/>
-        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="335,79,0,0" VerticalAlignment="Top" Height="40" Width="145" Click="Button_Click_2" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="16" FontWeight="Bold" ToolTip="Вернуться в меню" Cursor="Hand"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="245,79,0,0" VerticalAlignment="Top" Height="40" Width="85" Click="Button_Click_1" Cursor="Hand" FontWeight="Bold" FontSize="16" Background="White" BorderBrush="Black" ToolTip="Очистить"/>
+        <Button Content="Открыть" HorizontalAlignment="Left" Margin="170,79,0,0" VerticalAlignment="Top" Height="40" Width="75" Click="Button_Click" Cursor="Hand" Background="White" BorderBrush="Black" Foreground="Black" FontSize="16" FontWeight="Bold" ToolTip="Открыть файл"/>
+        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="330,79,0,0" VerticalAlignment="Top" Height="40" Width="145" Click="Button_Click_2" BorderBrush="Black" Background="White" FontSize="16" FontWeight="Bold" ToolTip="Вернуться в меню" Cursor="Hand"/>
         <Label Content="&quot;ФАЙЛ&quot;" HorizontalAlignment="Left" Margin="352,10,0,0" VerticalAlignment="Top" Width="98" FontSize="22" Background="{x:Null}" Foreground="Black" FontWeight="Bold"/>
         <Button Content="" Margin="0,-1,840,625" Visibility="Visible" BorderBrush="White" Click="Button_Click_3">
             <Button.Background>

@@ -120,5 +120,7 @@ C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcorea
 C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Sader\source\repos\Практика\Практика\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Модули.g.cs
-C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Модули.baml
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Картинка.g.cs
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Картинка.baml
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Pleer.g.cs
+C:\Users\Sader\source\repos\Практика\Практика\obj\Debug\netcoreapp3.1\Pleer.baml
